@@ -1,0 +1,9 @@
+langgraph
+langchain-core
+langchain-openrouter
+langchain-community
+langchain-huggingface
+pydantic
+tavily-python
+huggingface-hub
+streamlit
