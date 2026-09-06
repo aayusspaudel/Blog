@@ -105,26 +105,25 @@ st.markdown(
         margin-bottom: 22px;
     }
 
-    .hero-badge {
-        display: inline-block;
+    .hero h1 span {
+    background: linear-gradient(
+        90deg,
+        #818cf8,
+        #38bdf8,
+        #c084fc,
+        #818cf8
+    );
+    background-size: 300% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 5s linear infinite;
+}
 
-        padding: 6px 11px;
-
-        border-radius: 999px;
-
-        color: #c7d2fe;
-
-        background: rgba(129,140,248,.12);
-
-        border:
-            1px solid rgba(129,140,248,.25);
-
-        font-size: .74rem;
-
-        font-weight: 800;
-
-        letter-spacing: .8px;
+@keyframes shimmer {
+    to {
+        background-position: 300% center;
     }
+}
 
     .hero h1 {
         font-size: clamp(
@@ -1719,25 +1718,18 @@ st.markdown(
     <div class="hero">
 
         <span class="hero-badge">
-            AI TECHNICAL BLOG GENERATOR
-        </span>
+    ✦ AI TECHNICAL BLOG ENGINE
+</span>
 
-        <h1>
-            From topic → research → article.
-        </h1>
+<h1>
+    From <span>thought</span> → research → creation.
+</h1>
 
-        <p>
-
-            Watch every LangGraph stage appear
-            as it completes.
-
-            Research, planning, parallel section
-            writing, merging, image decisions,
-            and the final Markdown are shown
-            separately.
-
-        </p>
-
+<p>
+    Give AI a topic. Watch intelligence unfold.
+    Research, reasoning, writing, merging, and visual generation —
+    orchestrated live through a powerful LangGraph workflow.
+</p>
     </div>
     """,
     unsafe_allow_html=True,
