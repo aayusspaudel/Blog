@@ -10,3 +10,4 @@ streamlit
 requests
 langgraph-checkpoint-sqlite
 markdown
+weasyprint
