@@ -7,3 +7,5 @@ pydantic
 tavily-python
 huggingface-hub
 streamlit
+requests
+langgraph-checkpoint-sqlite
