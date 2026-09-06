@@ -1717,7 +1717,7 @@ st.markdown(
     """
     <div class="hero">
 
-        <span class="hero-badge">
+        <span>
     ✦ AI TECHNICAL BLOG ENGINE
 </span>
 
